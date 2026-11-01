@@ -1,0 +1,6 @@
+dataset,rows,duplicate_rows,columns_with_missing_values,total_missing_cells
+books,10000,0,5,2975
+book_tags,999912,6,0,0
+ratings,981756,1644,0,0
+tags,34252,0,0,0
+to_read,912705,0,0,0

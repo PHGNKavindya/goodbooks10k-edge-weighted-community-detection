@@ -1,0 +1,53 @@
+{
+  "random_state": 42,
+  "original_shapes": {
+    "books": [
+      10000,
+      23
+    ],
+    "book_tags": [
+      999912,
+      3
+    ],
+    "ratings": [
+      981756,
+      3
+    ],
+    "tags": [
+      34252,
+      2
+    ],
+    "to_read": [
+      912705,
+      2
+    ]
+  },
+  "clean_shapes": {
+    "books": [
+      10000,
+      23
+    ],
+    "book_tags": [
+      999906,
+      3
+    ],
+    "ratings": [
+      980112,
+      3
+    ],
+    "tags": [
+      34252,
+      2
+    ],
+    "to_read": [
+      912705,
+      2
+    ]
+  },
+  "positive_rating_definition": "rating >= 4",
+  "identifier_mapping": {
+    "ratings.book_id": "books.id",
+    "book_tags.goodreads_book_id": "books.book_id",
+    "book_tags.tag_id": "tags.tag_id"
+  }
+}

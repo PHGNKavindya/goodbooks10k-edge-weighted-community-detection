@@ -1,0 +1,13 @@
+check,value
+Books rows after cleaning,10000
+Unique dataset book IDs,10000
+Unique Goodreads book IDs,10000
+Unique tag IDs,34252
+Clean book-tag relationships,999904
+Books represented in tag table,10000
+Clean rating rows,980112
+Unique rating users,53424
+Unique rated books,10000
+Unmatched rating rows,0
+Unmatched book-tag rows,0
+Unmatched tag-name rows,0
